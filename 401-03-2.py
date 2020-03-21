@@ -8,6 +8,7 @@ Created on Sat Mar 21 11:33:26 2020
 from mcpi.minecraft import Minecraft
 #連結 mcpi 資料夾
 mc=Minecraft.create()
+
 #連結Minecraft
 x,y,z=mc.player.getTilePos()
 mc.setBlocks(x-2, y-1, z, x+2, y-1, z, 152)
