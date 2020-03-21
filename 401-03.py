@@ -6,9 +6,7 @@ Created on Sat Mar 21 10:20:04 2020
 """
 
 from mcpi.minecraft import Minecraft
-#連結 mcpi 資料夾
 mc=Minecraft.create()
-#連結Minecraft
 
 x,y,z=mc.player.getTilePos()
 #西瓜
