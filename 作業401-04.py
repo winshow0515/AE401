@@ -12,4 +12,5 @@ mc=Minecraft.create()
 while True:
         x,y,z=mc.player.getTilePos()
         mc.setBlock(x, y, z, 8)
+        mc.setBlock(x, y-1, z, 19)
         time.sleep(30)
